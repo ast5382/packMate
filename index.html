@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <link href='style.css' rel='stylesheet'>
+    <title>Packmate</title>
+</head>
+
+<body>
+    <header>
+    <h1>Packmate</h1>
+    <h5>Make packing easy</h5>
+
+    </header>
+    
+
+    <div id="Q1">
+        <p>How long is your trip?</p>
+
+        <label for="dayInput">Days</label>
+        <input type="number" class="num-input" id="dayInput" min="1" max="31">
+
+        <label for="nightInput">Nights</label>
+        <input type="number" class="num-input" id="nightInput" min="1" max="31">
+    </div>
+
+    <br>
+    <a href="#results">
+    <button id="submit">Pack Me!</button>
+    </a>
+
+    <br><br><br><br>
+    <div id="results">
+
+        <p id="resultMessage"></p>
+
+    <div class="grid-container">
+
+        <div class="grid-card" id="shirts">
+            <p class="cardText"></p>
+            <img src="icons\tshirt.png" class="icon">
+
+        </div>
+
+        <div class="grid-card" id="pants">
+            <p class="cardText"></p>
+            <img src="icons\jeans.png" class="icon">
+
+        </div>
+        <div class="grid-card" id="underwear">
+            <p class="cardText"></p>
+            <img src="icons\underwear.png" class="icon">
+
+        </div>
+        <div class="grid-card" id="bra">
+            <p class="cardText"></p>
+            <img src="icons\bra.png" class="icon">
+
+        </div>
+        <div class="grid-card" id="shoes">
+            <p class="cardText"></p>
+            <img src="icons\sneakers.png" class="icon">
+
+        </div>
+        <div class="grid-card" id="socks">
+            <p class="cardText"></p>
+            <img src="icons\socks.png" class="icon">
+
+        </div>
+
+</div>
+        <!-- <p id="spacer"> hi</p> -->
+
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
